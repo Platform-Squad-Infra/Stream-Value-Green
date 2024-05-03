@@ -4,5 +4,5 @@ metadata:
   name: "SuperTest"
 spec:
   type: service
-  owner: team:Stream-Value-Green
+  owner: group:Platform-Squad-Infra/Stream-Value-Green
   lifecycle: experimental
