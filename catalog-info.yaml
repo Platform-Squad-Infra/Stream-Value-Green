@@ -4,6 +4,7 @@ metadata:
   name: "SuperTest"
   annotations:
     github.com/project-slug: Platform-Squad-Infra/Stream-Value-Green
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: service
   owner: group:Platform-Squad-Infra/Stream-Value-Green
