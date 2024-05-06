@@ -9,7 +9,7 @@ spec:
   owner: group:Platform-Squad-Infra/Stream-Value-Green
   lifecycle: experimental
   providesApis: [example-grpc-api]
-
+---
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
