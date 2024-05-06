@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: Greet the user
         run: |
-            echo "Hello best World from ${{github.actor}}."
+            echo "Hello super best World from ${{github.actor}}."
             echo "Current branch ${{github.ref}}."
       - name: Checkout
         uses: actions/checkout@v4.1.4
