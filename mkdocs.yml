@@ -1,7 +1,12 @@
 site_name: 'example-docs'
 
-nav:
-  - Home: index.md
-
 plugins:
   - techdocs-core
+
+nav:
+  - Home: index.md
+  # For sidebar navigation on https://backstage.io/, see `microsite/sidebars.json`
+  - Overview:
+      - What is Backstage?: 'overview/what-is-backstage.md'
+      - Architecture overview: 'overview/architecture-overview.md'
+
