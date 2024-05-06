@@ -14,26 +14,6 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: example-grpc-api
-spec:
-  type: grpc
-  lifecycle: experimental
-  owner: group:Platform-Squad-Infra/Stream-Value-Green  
-  definition: |
-    syntax = "proto3";
-
-    service Exampler1 {
-      rpc Example (ExampleMessage) returns (ExampleMessage) {};
-    }
-
-    message Example1Message {
-      string example = 1;
-    };
-
----
-apiVersion: backstage.io/v1alpha1
-kind: API
-metadata:
   name: example-grpc-api-2
 spec:
   type: grpc
