@@ -2,6 +2,8 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: "SuperTest"
+  annotations:
+    github.com/project-slug: Platform-Squad-Infra/Stream-Value-Green
 spec:
   type: service
   owner: group:Platform-Squad-Infra/Stream-Value-Green
