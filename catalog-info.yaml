@@ -21,11 +21,11 @@ spec:
   definition: |
     syntax = "proto3";
 
-    service Exampler {
+    service Exampler1 {
       rpc Example (ExampleMessage) returns (ExampleMessage) {};
     }
 
-    message ExampleMessage {
+    message Example1Message {
       string example = 1;
     };
 
