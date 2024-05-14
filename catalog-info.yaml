@@ -18,7 +18,7 @@ metadata:
 spec:
   type: grpc
   lifecycle: experimental
-  owner: group:Platform-Squad-Infra/Stream-Value-Green  
+  owner: group:Stream-Squad-Black  
   definition: |
     syntax = "proto3";
 
